@@ -1,0 +1,9 @@
+=ab()
+  $width2: $b - 1
+  @media screen and (max-width: $width2)
+    @content
+=bc()
+  $width1: $b
+  $width2: $c - 1
+  @media (min-width: $width1) and (max-width: $width2)
+    @content
